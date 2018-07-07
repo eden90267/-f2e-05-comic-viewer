@@ -1,4 +1,4 @@
-# -f2e-05-comic-viewer
+# f2e-05-comic-viewer
 
 The F2E - 前端修練精神時光屋 - Week 5 - Comic Viewer
 
