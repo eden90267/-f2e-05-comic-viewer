@@ -1,0 +1,14 @@
+doctype html
+html(lang="zh-Hant-TW")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+  title The F2E - 05 - Comic Viewer
+  link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Roboto:400,500,700i,900,900i")
+  link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+  link(rel="stylesheet", href="css/all.css?#{new Date().getTime()}")
+body
+  include partials/_header
+  block content
+  include partials/_footer
+  include partials/_scripts

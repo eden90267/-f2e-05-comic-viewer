@@ -1,0 +1,43 @@
+extends _layout
+
+block content
+  main.wrap
+    .d-flex.mb-4.cover
+      .cover_img
+        img(src="img/comic_cover.png")
+      .cover_content
+        .pl-4.cover_title
+          h2.mb-0 MY HEXSCHOOL
+        dl.pl-4.pt-3.mb-0.row
+          dt.col-3 Genres
+          dd.col-9 Fusce/vehicula/dolor
+          dt.col-3 Author
+          dd.col-9 Namae Shiranai
+          dt.col-3 Status
+          dd.col-9 Ongoing
+          dt.mb-4.col-3 Rate
+          dd.mb-4.col-9
+            i.d-inline-block.mr-3.fa.fa-star
+            i.d-inline-block.mr-3.fa.fa-star
+            i.d-inline-block.mr-3.fa.fa-star
+            i.d-inline-block.mr-3.fa.fa-star
+            i.d-inline-block.fa.fa-star-o
+          dt.mb-2.col-12 Summary
+          dd.mb-0.col-12
+            p.mb-4 If your banker breaks, you snap; if your apothecary by mistake sends you poison in your pills, you die.
+            p Therefore, I say, I saw that this situation of mine was the precise situation of every mortal that has this Siamese connexion with a plurality of other mortals.
+    .cover-chapters
+      ul#pills-tab.nav.nav-pills
+        li.nav-item
+          a(href="#pills-all-chapters", data-toggle="pill", aria-controls="pills-all-chapters")#pills-all-chapters-tab.nav-link.active All Chapters
+      #pills-tabContent.tab-content.p-4
+        div(aria-labelledby="pills-all-chapters-tab")#pills-all-chapters.tab-pane.fade.show.active
+          ul.list-unstyled.mb-0
+            li.mb-3 Chapter 1: The F2E Challenge Start!
+            li
+              | Chapter 2: Todo List is Going Crazy!
+              | <span class="badge ml-3">NEW</span>
+
+
+
+
